@@ -1,15 +1,15 @@
 # STM32L4xx project template
-A project template for developing and flashing code to the STM32L4xx microcontroller. The ´main.c´ file contains a program that simply turns PB0 on and off, so you can hook up an LED or speaker to test if it's flashing correctly.
+A project template for developing and flashing code to the STM32L4xx microcontroller. The `main.c` file contains a program that simply turns PB0 on and off, so you can hook up an LED or speaker to test if it's flashing correctly.
 
 ## Usage
 Compile the code using:
-´´´
+```
 make
-´´´
+```
 and flash the code using:
-´´´
+```
 make burn
-´´´
+```
 
 ## Disclaimer
 This code has been tested on the STM32L451 microcontroller. Apparently the libraries used in this project are compatible with all STM32L4xx microcontrollers. However, I recommend you to get the STM32CubeMX software and get the latest libraries for your microcontroller yourself to be on the safe side.
